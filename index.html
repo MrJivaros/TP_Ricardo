@@ -1,108 +1,100 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>index</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
 
-  </head>
-  <body >
-  	<table style="margin-left: 350px; position: fixed;" cellpadding="30px">
-				<tr>
-					<td><a href="#ACCEUIL" style="color: white; text-decoration: none; font-family: calibri;"><h4>ACCEUIL</h4></a></td>
-					<td><a href="#NOS MEMOIRES" style="color: white; text-decoration: none; font-family: calibri;"><h4>NOS MEMOIRES</h4></a></td>
-					<td><a href="#INSCRIPTION" style="color: white; text-decoration: none; font-family: calibri;"><h4>INSCRIPTION</h4></a></td>
-					<td><a href="#A PROPOS" style="color: white; text-decoration: none; font-family: calibri;"><h4>A PROPOS</h4></a></td>
-				</tr>
-			</table>
-  		<table border="0" width="100%" height="700" >
-	 		     <tr height="40%" style="background-color:#012060">
+<body>
 
-	 		      	 	<td colspan="10">
-	 		      	 		<p align="left"><img src="logo.jpg"></p>
-	 		      	 		<p align="right"><img src="logo.jpg"></p>
-	 		      		</td>
-	 		      </tr>
-	 		       <tr height="5%">
-	 		      	 <td colspan="5">
-	 		      	 	<marquee>
-	 		      	 		<font size="4px" color="red" font-family="Brush Script Std"><h1>COMMUNIQUE/INFORMATION:Bienvenue sur le site d'inscription à la soirée de Gala</h1></font>
-	 		      	    </marquee>
-	 		      	 </td>
-	 		      	
+  <header>
+    <div class="Header">
+      <div class="Header-img">
+        <img src="./images/logo.jpeg" alt="logo">
+      </div>
 
-	 		      </tr>
-	 		      
-	 		       <tr height="35%">
-	 		      	 <td></td>
+      <div class="Header-title">
+        <div class="Header-h1">
+          <h1>LA SOIREE DE GALA</h1>
+        </div>
+        <h3>SONOU WEEK</h3>
+      </div>
 
-	 		      	 <td colspan="3">
-	 		      	 		<center>
+      <div class="Header-img">
+        <img src="./images/logo.jpeg" alt="logo">
+      </div>
+    </div>
 
-	 		      	 	<h3>PRIERE VOUS IDENTIFIER </h3>
-	 		      	 </center>
-	 		      	 	<center>
-	 		      	 		<form method="post" action="traitement.php">
-	 		      	 			<h2>
-			 		      	 	<table border="0" width="300" height="150"  align="center">
-			 		      	 	Nom:<input type="text" name=""><br><br>
-			 		      	 	Prenoms:<input type="text" name=""><br><br>
-			 		      	 	Age:<input type="float" name=""><br><br>
-			 		      	 	Numero:<input type="number" name=""><br><br>	
-				 Niveau:<select name="Niveau">
-      	<option value="Licence 1">Licence 1</option>
-      	<option value="Licence 2">Licence 2</option>
-      	<option value="Licence 3">Licence 3</option>
-      </select><br><br>
-      </h2>
-			 		      	 		<td>
+    <nav>
+      <div class="Navigation">
+        <ul>
+          <li>
+            <a href="#">ACCUEIL</a>
+          </li>
 
-			 		      	 			</b><button type="submit">ANNULER</button>
+          <li>
+            <a href="#">NOS MEMOIRES</a>
+          </li>
 
-			 		      	 		</td>
-			 		      	 		<td>
+          <li>
+            <a href="#">A PROPOS</a>
+          </li>
+        </ul>
+      </div>
 
-			 		      	 			</b><button type="submit">ENREGISTRER</button>
+    </nav>
+    <div class="Information">
+      <marquee>
+        <h1>COMMUNIQUE/INFORMATION:Bienvenue sur le site d'inscription à la soirée de Gala</h1>
+      </marquee>
+    </div>
+  </header>
 
-			 		      	 		</td>
+  <main>
+    <div class="Container">
+      <div class="form-group">
+        <label for="name">Nom : </label>
+        <input type="text" name="name">
+      </div>
 
+      <div class="form-group">
+        <label for="name">Prénom : </label>
+        <input type="text" name="name">
+      </div>
 
-			 		      	 		
+      <div class="form-group">
+        <label for="name">Age : </label>
+        <input type="text" name="name">
+      </div>
 
-										 		      	 		
-			 		      	 	</tr>
-			 		      	 		<td></td>
+      <div class="form-group">
+        <label for="name">Tel : </label>
+        <input type="text" name="name">
+      </div>
 
-			 		      	 		<td></td>
-			 		      	 		
-			 		      	 		
-										 		      	 		
-	 		      	 	</tr>
-	 		      	 </table>	
-	 		      	</form>
-	 		      	</center>
+      <div class="form-group">
+        <label for="name">Classe : </label>
+        <input type="text" name="name">
+      </div>
 
+      <div class="Button">
+        <button>ANNULER</button>
+        <button>ENREGISTRER</button>
+      </div>
+    </div>
+  </main>
 
-	 		      	 </td>
-	 		      	
+  <footer>
+    <div class="Footer">
+      <h3>@Copyright 2022-Calavi-Tous droits réservés</h3>
+      <h3>Contacts : (+229) 65 06 80 11 / xx xx xx xx , e-mail: codjosteveletor@gmail.com</h3>
 
-	 		      </tr>
+    </div>
+  </footer>
+</body>
 
-	 		       <tr height="10%">
-	 		      	 <td colspan="5" align="center">
-		 		      <footer>
-		 		      	<h1>@Copyright 2022-Calavi-Tous droits réservés</h1><br> codjosteveletor@gmail.com<br>+22965068011
-	            
-	                 </footer>
-	 		      	 </td>
-	 		      	
-
- 
-	 		      </tr>
-  		</table>
-
-
-
-
-  </body>
-  </html>
+</html>
